@@ -1,0 +1,26 @@
+{
+  "data": {
+    "products": [
+      {
+        "id": 987654321,
+        "name": "Куртка зимняя женская",
+        "salePriceU": 549900,
+        "totalSalePriceU": 549900,
+        "sizes": [
+          {
+            "name": "42",
+            "stocks": [
+              { "qty": 0 }
+            ]
+          },
+          {
+            "name": "44",
+            "stocks": [
+              { "qty": 0 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

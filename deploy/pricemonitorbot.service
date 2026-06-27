@@ -1,0 +1,18 @@
+[Unit]
+Description=PriceMonitorBot Telegram Bot
+After=network.target postgresql.service
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/mini/pricemonitorbot
+EnvironmentFile=/var/www/mini/pricemonitorbot/.env
+ExecStart=/var/www/mini/pricemonitorbot/venv/bin/python -m pricemonitorbot.main
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,26 @@
+{
+  "data": {
+    "products": [
+      {
+        "id": 123456789,
+        "name": "Футболка мужская хлопок базовая",
+        "salePriceU": 129900,
+        "totalSalePriceU": 129900,
+        "sizes": [
+          {
+            "name": "M",
+            "stocks": [
+              { "qty": 5 }
+            ]
+          },
+          {
+            "name": "L",
+            "stocks": [
+              { "qty": 3 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

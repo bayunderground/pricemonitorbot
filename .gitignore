@@ -31,4 +31,5 @@ pep8.report
 .claude/
 
 __pycache__
+.pytest_cache
 
